@@ -14,7 +14,7 @@ import { Header } from "../components";
 const Editor = () => {
   return (
     <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-whate rounded-3xl">
-      <Header title="Editor" category="Apps" />
+      <Header title="Editor" category="App" />
       <RichTextEditorComponent>
         <Inject services={[Toolbar, Link, Image, HtmlEditor, QuickToolbar]} />
       </RichTextEditorComponent>
