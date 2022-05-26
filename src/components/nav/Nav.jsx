@@ -82,7 +82,7 @@ const Nav = () => {
           icon={<BsChatLeft />}
         />
         <NavButton
-          title="Toasts"
+          title="Notifcations"
           dotColor="#03c9d7"
           customFunc={() => handleClick("toast")}
           color={currentColor}
